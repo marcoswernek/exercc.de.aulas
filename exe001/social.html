@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+</head>
+<script src="https://kit.fontawesome.com/929adfffcc.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Blaka&family=Press+Start+2P&display=swap');
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+    h1{
+        color:#89a5c2;
+        font-size: max(50px, 4vw);
+        font-family:'Press Start 2P', cursive;
+        text-align: center;
+    }
+    header,section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+    section{
+        background:#025959;
+    }
+    header{
+        background: #024b61;
+        position:relative;
+    }
+    header h1{
+        border: 5px solid #ecf0f5c9;
+        padding: 10px 50px;
+        margin: 50px;
+    }
+    .waves{
+        position:absolute;
+        bottom: 0;
+        left:0;
+        right:0;
+    }
+    .wave-1{
+        animation: movewave1 3s ease-in-out infinite alternate;
+    }
+    @keyframes movewave1{
+        from{
+            transform: translate(450px);
+        }
+    }
+    .wave-2{
+        animation: movewave2 3s 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes movewave2{
+        from{
+            transform: translate(1200px);
+        }
+    }
+    .wave-3{
+        animation: movewave3 3s 1.7s ease-in-out infinite alternate;
+    }
+    @keyframes movewave3{
+        from{
+            transform: translate(-40px);
+        }
+    }
+</style>
+<body>
+    <header>
+        <h1>Marcos Wernek</h1>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 311">
+            <path class="wave-1"
+            fill="#02735E" fill-opacity="1" d="M0,160L60,149.3C120,139,240,117,360,144C480,171,600,245,720,234.7C840,224,960,128,1080,101.3C1200,75,1320,117,1380,138.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            <path class="wave-2"
+             fill="#012E40" fill-opacity="1" d="M0,256L60,245.3C120,235,240,213,360,176C480,139,600,85,720,101.3C840,117,960,203,1080,229.3C1200,256,1320,224,1380,208L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+             <path class="wave-3"
+             fill="#025959" fill-opacity="1" d="M0,32L60,26.7C120,21,240,11,360,58.7C480,107,600,213,720,229.3C840,245,960,171,1080,165.3C1200,160,1320,224,1380,256L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
+    </header>
+    <section>
+        <h1>Social</h1>
+        <dis>
+            <div class="conteiner">
+                <div class="icon">
+                    <i class="fa-brands fa-instagram fa-3x"></i>
+                    <i class="fa-brands fa-twitter fa-3x"></i>
+                    <i class="fa-brands fa-github fa-3x"></i>
+                    <i class="fa-brands fa-twitch fa-3x"></i>
+                </div>
+            </div>
+        </dis>
+    </section>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.conteiner{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 120px;
+    right: 150px;
+    color: rgb(191, 207, 207);
+    top: 50px;
+}
