@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+.loading{
+    left: 35%;
+    top: 50%;
+    font-size: 56px;
+    font-family: serif;
+    font-weight: bold;
+    letter-spacing: 6.4px;
+    text-transform:capitalize;
+    position: absolute;
+    overflow: hidden;
+    transform: translate(50%,-50%);
+}
+.loading:before {
+    color: rgb(9, 224, 231);
+    content: attr(data-loading-text);
+}
+.loading::after {
+    top: 0;
+    left:0;
+    width:0;
+    opacity:1;
+    color:rgb(20, 19, 19);
+    overflow: hidden;
+    position:absolute;
+    content: attr(data-loading-text);
+    animation: loading 5s infinite;
+}
+@keyframes loading {
+    0% {
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
+img{
+    width:40%;
+    padding:140px;
+}
