@@ -63,11 +63,11 @@ i {
 
 #navbar a {
     width: 80px;
-    color: #444;
+    color: gold;
 }
 
 #navbar a:hover {
-    color: #c1b696;
+    color: brown;
 }
 
 /* MAIN IMAGE */
