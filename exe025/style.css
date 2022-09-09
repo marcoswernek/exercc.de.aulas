@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(camp-4363073.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(landscape-1844226.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+.container3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(mountain-7419960.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: table;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(182, 32, 32);
+    font-weight: 600;
+    font-family: 'teko', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
