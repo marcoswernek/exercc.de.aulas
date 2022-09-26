@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:700);
+
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 400%;
+    color: rgb(94, 91, 91);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    text-align: center;
+}
+
+.efeito {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+span {
+    color: transparent;
+    animation: blur 10s ease-out infinite;
+    -webkit-animation: blur 10s ease-out infinite;
+}
+
+span:nth-child(1) {
+    animation-delay: 0.1s;
+    -webkit-animation-delay: 0.1s;
+}
+
+span:nth-child(2) {
+    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+
+span:nth-child(3) {
+    animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+}
+
+span:nth-child(4) {
+    animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+}
+
+span:nth-child(5) {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+span:nth-child(6) {
+    animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+}
+
+span:nth-child(7) {
+    animation-delay: 0.7s;
+    -webkit-animation-delay: 0.7s;
+}
+
+@keyframes blur {
+    0% {
+        text-shadow: 0 0 100px rgb(124, 103, 103);
+        opacity: 0;
+    }
+
+    5% {
+        text-shadow: 0 0 90px rgb(99, 87, 87);
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    20% {
+        text-shadow: 0 0 0px rgb(58, 55, 55);
+    }
+
+    80% {
+        text-shadow: 0 0 0px #fff;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    95% {
+        text-shadow: 0 0 90px #fff;
+    }
+
+    100% {
+        text-shadow: 0 0 100px #fff;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blur {
+    0% {
+        text-shadow: 0 0 100px #fff;
+        opacity: 0;
+    }
+
+    5% {
+        text-shadow: 0 0 90px #fff;
+    }
+
+    15% {
+        opacity: 1;
+    }
+
+    20% {
+        text-shadow: 0 0 0px #fff;
+    }
+
+    80% {
+        text-shadow: 0 0 0px #fff;
+    }
+
+    85% {
+        opacity: 1;
+    }
+
+    95% {
+        text-shadow: 0 0 90px #fff;
+    }
+
+    100% {
+        text-shadow: 0 0 100px #fff;
+        opacity: 0;
+    }
+}
