@@ -477,3 +477,8 @@ form input[type="submit"]:hover,
 form input[type="submit"]:focus {
     background: #372056;
 }
+
+#contato {
+    height: 100vh;
+    display: block;
+}
