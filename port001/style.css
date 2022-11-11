@@ -485,6 +485,7 @@ form input[type="submit"]:focus {
 
 /***** Footer **********/
 
+/*
 .footr {
     display: flex;
     grid-auto-flow: row;
@@ -518,7 +519,7 @@ a:hover {
     animation: wave-animation 0.3s infinite;
 }
 
-/* below is just for demo styling */
+
 
 footer {
     display: flex;
@@ -544,7 +545,9 @@ footer {
         transform: rotate(-15deg);
     }
 }
-/************************/
+*/
+
+/********* Botao Up***************/
 #myBtn {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
@@ -567,5 +570,5 @@ footer {
 }
 
 #myBtn:hover {
-    background-color: #555;
+    background-color:#2C405E;
 }
